@@ -8,7 +8,7 @@ rm -rf out || exit 0;
 mkdir out;
 
 # run our compile script, discussed above
-./create.sh
+sh create.sh
 
 # go to the out directory and create a *new* Git repo
 cd patches/web-os

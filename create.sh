@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 echo Generating patches...
 echo
-./clone.sh
+sh ./clone.sh
 echo
-./createPatch.sh
+sh ./createPatch.sh
