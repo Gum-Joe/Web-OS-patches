@@ -1,0 +1,7 @@
+language: generic
+
+script: ./travis.sh
+env:
+  global:
+  - GH_REF: github.com/Gum-Joe/Web-OS-patches.git
+  - secure: "MBFyY9ZRUB1la8jEfgffu+Uie1bLJbUPasSYKQh4DI8/OUPNwmHb4msFct6OVP+QC84P37deVsc/a8RVFs4AMhxn35vIN1DVrSStEeFFqQ5q5tofl+SGSuuY5hAwYnDo4a9DQYFvxY+Did+1Uwt3TsWYinSaCYZ7Y7SYic7YJLH/0N3SQqUj/hIreOfY2FSLaYJWFmHr1qFscM/jtZYaUdCrkzOC80WgNVMv+fnH3O03aR/kd/JnokMd+VQERdahah9QpW7M2dOO2AZ7rFfuGmtKQxHUv8JFV/LJQgFdQnXoVoyT3zbmEK7KmHtoVXExzyHMOmy9Q1s59Jf0z/EAQMteYCVKwQZDL2B79bB1E+SPh2/onMaR8m/vD+FHdgQa0zZpIBTXnTdl12drG3M4CapR3/cjFh82Yg9hNP9mIgPychT9jmgamQV8WuAJTT0XUyi2Y5ljYBCVxkdFjYgJvq7OTy2OSAfJqL4IukrfAOObyqAI8GCwyVWJMdqWVDz4wLoM2TXnbLIWEyCTSp89T6Fuf6shPLEbB8dP/O7HVlMGTihtjhMolcn2cwv1pxTtDaBTFn7/iwCu6eXOGhoAOW9hx/0JLDu2Nnxb9eW4ICz6fvfmgqcVXtxkPlCwRoyGxoSs1sPaaJnxQe2mTxWb5eLzqcKVhteGZvrtDtLF+bQ="
