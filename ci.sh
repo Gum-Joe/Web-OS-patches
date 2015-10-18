@@ -1,4 +1,6 @@
 #!/bin/bash
+chmod 777 create.sh
+chmod 777 clone.sh
 set -e # exit with nonzero exit code if anything fails
 
 # clear and re-create the out directory
