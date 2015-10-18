@@ -1,6 +1,6 @@
 language: generic
 
-script: ./travis.sh
+script: sh ./ci.sh
 env:
   global:
   - GH_REF: github.com/Gum-Joe/Web-OS-patches.git
